@@ -1,15 +1,15 @@
 import React from 'react'
 import Router from 'react-router'
 
-const { RouteHandler } = Router;
-
 export default class App extends React.Component {
     render() {
         return (
-            <div>
-                <h1>Go Daw</h1>
-                <RouteHandler />
+          <div className="row">
+            <div className="large-12 columns">
+              <h1>Footie</h1>
+              <Router.RouteHandler/>
             </div>
+          </div>
         );
     }
 }
